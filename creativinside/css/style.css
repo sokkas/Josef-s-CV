@@ -1,0 +1,88 @@
+* {
+    scroll-behavior: smooth;
+}
+
+#list {
+    width: 50%;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-container {
+    display: block;
+    text-align: left;
+}
+#container {
+    display: flex;
+    align-items: center;
+}
+
+#menu_button {
+    color: #001F3F;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 2.5rem;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+#menu_button:hover {
+    color: silver;
+    background-color: blueviolet;
+    transform: translateY(-5px);
+    transition: 0.7s;
+}
+
+#main_menu_bar {
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#main_menu_navigation {
+    position: sticky;
+    display: flex;
+    justify-content: center;
+}
+.text {
+    color: #c8d2de;
+    text-align: center
+}
+
+#switchButton{
+    padding: 10px 20px;
+    margin-left: 20px;
+    background-color: #001F3F;
+    color: #c8d2de;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#switchButton:hover {
+    background-color: blueviolet;
+    transition: 0.2s;
+}
+
+#rightDiv {
+    position: absolute;
+    transform: translate(-38%, 74%);
+    right: 0;
+    top: 0;
+    width: 600px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#rightDiv h1 {
+    padding-left: 1rem;
+}
+
+#rightDiv li{
+    padding-left: 2rem;
+}

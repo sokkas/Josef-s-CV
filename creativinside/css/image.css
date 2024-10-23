@@ -1,0 +1,26 @@
+#CV {
+    position: absolute;
+    top: 55%;
+    left: 30%; /* Changed from 30% to 50% for proper centering */
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    width: 1000px;
+    height: 600px;
+    border-radius: 10px;
+    display: flex; /* Added flex display */
+    align-items: center; /* Center items vertically */
+}
+
+#CV_picture {
+    height: 300px;
+    width: 250px;
+    padding-bottom: 100px;
+    padding-top: 80px;
+    padding-left: 80px;
+}
+
+#CVs {
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
